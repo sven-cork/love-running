@@ -307,5 +307,17 @@ footer {
         text-align: center;
         padding: 20px;
     }
+
+    #photos {
+        column-count: 3;
+    }
 }   
+    
+/* For small mobile device screen*/
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
     
